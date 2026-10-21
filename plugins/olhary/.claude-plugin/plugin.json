@@ -1,0 +1,20 @@
+{
+  "name": "olhary",
+  "displayName": "Olhary",
+  "version": "1.0.0",
+  "description": "Search Brazil's public tenders, check company sanctions and find catalog codes on Olhary.",
+  "author": {
+    "name": "Olhary",
+    "email": "info@olhary.ai",
+    "url": "https://olhary.ai"
+  },
+  "homepage": "https://olhary.ai/docs/mcp",
+  "repository": "https://github.com/olhary-ai/plugins",
+  "license": "MIT",
+  "keywords": ["olhary", "procurement", "tenders", "licitacoes", "pncp", "sanctions", "brazil"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://olhary.ai/docs/mcp",
+  "privacyPolicyUrl": "https://olhary.ai/privacidade",
+  "termsOfServiceUrl": "https://olhary.ai/termos",
+  "supportUrl": "https://olhary.ai/suporte"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "olhary-ai",
+  "owner": {
+    "name": "Olhary",
+    "email": "info@olhary.ai",
+    "url": "https://github.com/olhary-ai"
+  },
+  "description": "Plugins for Olhary: each one teaches the agent a product's workflows and connects it to that product's MCP server.",
+  "plugins": [
+    {
+      "name": "olhary",
+      "source": "./plugins/olhary",
+      "description": "Search Brazil's public tenders, check company sanctions and find catalog codes on Olhary.",
+      "category": "productivity"
+    }
+  ]
+}

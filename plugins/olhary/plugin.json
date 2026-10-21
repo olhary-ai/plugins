@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "olhary",
+  "version": "1.0.0",
+  "description": "Search Brazil's public tenders, check company sanctions and find catalog codes on Olhary.",
+  "author": {
+    "name": "Olhary",
+    "email": "info@olhary.ai",
+    "url": "https://olhary.ai"
+  },
+  "homepage": "https://olhary.ai/docs/mcp",
+  "repository": "https://github.com/olhary-ai/plugins",
+  "license": "MIT",
+  "keywords": ["olhary", "procurement", "tenders", "licitacoes", "pncp", "sanctions", "brazil"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Olhary",
+        "shortDescription": "Tenders and supplier checks",
+        "longDescription": "Olhary connects your agent to Brazil's public procurement data. It has eight lookups, and all of them only read. Search the tenders, price-register agreements (atas) and contracts published on PNCP, by text, state, municipality, status, date and value. Check a company's public sanctions in CEIS, CNEP, CEPIM and leniency agreements. Read a supplier's recorded wins and awarded values. Find CATMAT and CATSER item codes, search federal legislation, and look up municipality (IBGE) and CNAE codes. The tools never look up people or CPFs, never read your private Olhary data and never change anything. The data and its field names are in Portuguese. Sign in with your Olhary account. The text of a tender search is sent to Google's Gemini API to find similar results, and a search with filters only sends no text. The privacy policy has the details.",
+        "developerName": "Olhary",
+        "category": "Data & Analytics",
+        "capabilities": [
+          "Search PNCP tenders, price-register agreements and contracts",
+          "Check a company's public sanctions by CNPJ",
+          "Read a supplier's recorded procurement wins and values",
+          "Find CATMAT and CATSER item codes",
+          "Search Brazilian federal legislation",
+          "Look up municipality (IBGE) and CNAE codes"
+        ],
+        "websiteURL": "https://olhary.ai",
+        "supportURL": "https://olhary.ai/suporte",
+        "privacyPolicyURL": "https://olhary.ai/privacidade",
+        "termsOfServiceURL": "https://olhary.ai/termos",
+        "defaultPrompt": [
+          "Find tenders for office chairs that are still open for proposals in São Paulo state.",
+          "Is the company with CNPJ 00.000.000/0001-91 on a public sanctions list?",
+          "What is the CATMAT code for A4 copy paper?"
+        ],
+        "brandColor": "#7c3aed",
+        "brandColorDark": "#8b5cf6",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

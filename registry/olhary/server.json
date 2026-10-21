@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.olhary/olhary",
+  "title": "Olhary",
+  "description": "Search Brazil's public tenders, check company sanctions and find catalog codes on Olhary.",
+  "version": "1.0.0",
+  "websiteUrl": "https://olhary.ai/docs/mcp",
+  "icons": [
+    {
+      "src": "https://olhary.ai/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    },
+    {
+      "src": "https://olhary.ai/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.olhary.ai/mcp"
+    }
+  ]
+}
