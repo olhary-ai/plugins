@@ -47,6 +47,8 @@ codex plugin add olhary@olhary-ai
 
 ## Sign in
 
+Your MCP client can see what the tools do before you sign in. To run a tool, connect your account or use an API key.
+
 In Claude Code, type `/mcp`, choose olhary and Authenticate. In Codex 0.147 or later, run
 `codex mcp login olhary`. The browser opens olhary.ai. Sign in to your Olhary account, check the
 app's name and the address it returns to, and press Connect (Conectar in Portuguese).
